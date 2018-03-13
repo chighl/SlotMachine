@@ -13,6 +13,10 @@ def play():
         win = "You win $50"
     if (slot1==slot2==slot3=="bar"):
         win = "You win $5"
+    if (slot1="cherry")
+       (slot2="crown")
+       (slot3="bar"):
+        win = "You win $1000"
     return slot1+":"+slot2+":"+slot3+" "+win
 for i in range(int(numberOfTimes)):
     print(play())
